@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDF80C52210F1DC0001F434A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF80C51210F1DC0001F434A /* AppDelegate.swift */; };
+		BDF80C54210F1DC0001F434A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF80C53210F1DC0001F434A /* ViewController.swift */; };
+		BDF80C57210F1DC0001F434A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C55210F1DC0001F434A /* Main.storyboard */; };
+		BDF80C5C210F1DC1001F434A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C5A210F1DC1001F434A /* LaunchScreen.storyboard */; };
+		BDF80C73210F1E25001F434A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C63210F1E24001F434A /* Assets.xcassets */; };
+		BDF80C74210F1E25001F434A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF80C64210F1E24001F434A /* TableViewController.swift */; };
+		BDF80C75210F1E25001F434A /* TableViewCell3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF80C65210F1E25001F434A /* TableViewCell3.swift */; };
+		BDF80C76210F1E25001F434A /* TableViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C66210F1E25001F434A /* TableViewCell2.xib */; };
+		BDF80C77210F1E25001F434A /* TableViewCell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C67210F1E25001F434A /* TableViewCell3.xib */; };
+		BDF80C78210F1E25001F434A /* TableViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C68210F1E25001F434A /* TableViewCell1.xib */; };
+		BDF80C79210F1E25001F434A /* TableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF80C69210F1E25001F434A /* TableViewCell1.swift */; };
+		BDF80C7A210F1E25001F434A /* droid-sans.bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C6B210F1E25001F434A /* droid-sans.bold.ttf */; };
+		BDF80C7B210F1E25001F434A /* DroidSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C6C210F1E25001F434A /* DroidSans.ttf */; };
+		BDF80C7C210F1E25001F434A /* DroidSansBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C6D210F1E25001F434A /* DroidSansBold.ttf */; };
+		BDF80C7D210F1E25001F434A /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C6E210F1E25001F434A /* fontawesome-webfont.ttf */; };
+		BDF80C7E210F1E25001F434A /* Pe-icon-7-stroke.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C6F210F1E25001F434A /* Pe-icon-7-stroke.ttf */; };
+		BDF80C7F210F1E25001F434A /* TableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C70210F1E25001F434A /* TableHeaderView.xib */; };
+		BDF80C80210F1E25001F434A /* TableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF80C71210F1E25001F434A /* TableViewCell2.swift */; };
+		BDF80C81210F1E25001F434A /* TableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF80C72210F1E25001F434A /* TableHeaderView.swift */; };
+		BDF80C88210F1EC0001F434A /* CollectionViewCell4.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C82210F1EBF001F434A /* CollectionViewCell4.xib */; };
+		BDF80C89210F1EC0001F434A /* CollectionViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF80C83210F1EBF001F434A /* CollectionViewCell2.swift */; };
+		BDF80C8A210F1EC0001F434A /* CollectionViewCell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C84210F1EBF001F434A /* CollectionViewCell1.xib */; };
+		BDF80C8B210F1EC0001F434A /* CollectionViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF80C85210F1EBF001F434A /* CollectionViewCell1.swift */; };
+		BDF80C8C210F1EC0001F434A /* CollectionViewCell4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF80C86210F1EBF001F434A /* CollectionViewCell4.swift */; };
+		BDF80C8D210F1EC0001F434A /* CollectionViewCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF80C87210F1EC0001F434A /* CollectionViewCell2.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BDF80C4E210F1DC0001F434A /* TableViewWithHeader&Footer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableViewWithHeader&Footer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF80C51210F1DC0001F434A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDF80C53210F1DC0001F434A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDF80C56210F1DC0001F434A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF80C5B210F1DC1001F434A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDF80C5D210F1DC1001F434A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF80C63210F1E24001F434A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF80C64210F1E24001F434A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		BDF80C65210F1E25001F434A /* TableViewCell3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell3.swift; sourceTree = "<group>"; };
+		BDF80C66210F1E25001F434A /* TableViewCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell2.xib; sourceTree = "<group>"; };
+		BDF80C67210F1E25001F434A /* TableViewCell3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell3.xib; sourceTree = "<group>"; };
+		BDF80C68210F1E25001F434A /* TableViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell1.xib; sourceTree = "<group>"; };
+		BDF80C69210F1E25001F434A /* TableViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell1.swift; sourceTree = "<group>"; };
+		BDF80C6B210F1E25001F434A /* droid-sans.bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "droid-sans.bold.ttf"; sourceTree = "<group>"; };
+		BDF80C6C210F1E25001F434A /* DroidSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSans.ttf; sourceTree = "<group>"; };
+		BDF80C6D210F1E25001F434A /* DroidSansBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansBold.ttf; sourceTree = "<group>"; };
+		BDF80C6E210F1E25001F434A /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		BDF80C6F210F1E25001F434A /* Pe-icon-7-stroke.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pe-icon-7-stroke.ttf"; sourceTree = "<group>"; };
+		BDF80C70210F1E25001F434A /* TableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableHeaderView.xib; sourceTree = "<group>"; };
+		BDF80C71210F1E25001F434A /* TableViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell2.swift; sourceTree = "<group>"; };
+		BDF80C72210F1E25001F434A /* TableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableHeaderView.swift; sourceTree = "<group>"; };
+		BDF80C82210F1EBF001F434A /* CollectionViewCell4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell4.xib; sourceTree = "<group>"; };
+		BDF80C83210F1EBF001F434A /* CollectionViewCell2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell2.swift; sourceTree = "<group>"; };
+		BDF80C84210F1EBF001F434A /* CollectionViewCell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell1.xib; sourceTree = "<group>"; };
+		BDF80C85210F1EBF001F434A /* CollectionViewCell1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell1.swift; sourceTree = "<group>"; };
+		BDF80C86210F1EBF001F434A /* CollectionViewCell4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell4.swift; sourceTree = "<group>"; };
+		BDF80C87210F1EC0001F434A /* CollectionViewCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell2.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF80C4B210F1DC0001F434A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF80C45210F1DC0001F434A = {
+			isa = PBXGroup;
+			children = (
+				BDF80C50210F1DC0001F434A /* TableViewWithHeader&Footer */,
+				BDF80C4F210F1DC0001F434A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF80C4F210F1DC0001F434A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF80C4E210F1DC0001F434A /* TableViewWithHeader&Footer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF80C50210F1DC0001F434A /* TableViewWithHeader&Footer */ = {
+			isa = PBXGroup;
+			children = (
+				BDF80C85210F1EBF001F434A /* CollectionViewCell1.swift */,
+				BDF80C84210F1EBF001F434A /* CollectionViewCell1.xib */,
+				BDF80C83210F1EBF001F434A /* CollectionViewCell2.swift */,
+				BDF80C87210F1EC0001F434A /* CollectionViewCell2.xib */,
+				BDF80C86210F1EBF001F434A /* CollectionViewCell4.swift */,
+				BDF80C82210F1EBF001F434A /* CollectionViewCell4.xib */,
+				BDF80C63210F1E24001F434A /* Assets.xcassets */,
+				BDF80C6A210F1E25001F434A /* Font */,
+				BDF80C72210F1E25001F434A /* TableHeaderView.swift */,
+				BDF80C70210F1E25001F434A /* TableHeaderView.xib */,
+				BDF80C69210F1E25001F434A /* TableViewCell1.swift */,
+				BDF80C68210F1E25001F434A /* TableViewCell1.xib */,
+				BDF80C71210F1E25001F434A /* TableViewCell2.swift */,
+				BDF80C66210F1E25001F434A /* TableViewCell2.xib */,
+				BDF80C65210F1E25001F434A /* TableViewCell3.swift */,
+				BDF80C67210F1E25001F434A /* TableViewCell3.xib */,
+				BDF80C64210F1E24001F434A /* TableViewController.swift */,
+				BDF80C51210F1DC0001F434A /* AppDelegate.swift */,
+				BDF80C53210F1DC0001F434A /* ViewController.swift */,
+				BDF80C55210F1DC0001F434A /* Main.storyboard */,
+				BDF80C5A210F1DC1001F434A /* LaunchScreen.storyboard */,
+				BDF80C5D210F1DC1001F434A /* Info.plist */,
+			);
+			path = "TableViewWithHeader&Footer";
+			sourceTree = "<group>";
+		};
+		BDF80C6A210F1E25001F434A /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BDF80C6B210F1E25001F434A /* droid-sans.bold.ttf */,
+				BDF80C6C210F1E25001F434A /* DroidSans.ttf */,
+				BDF80C6D210F1E25001F434A /* DroidSansBold.ttf */,
+				BDF80C6E210F1E25001F434A /* fontawesome-webfont.ttf */,
+				BDF80C6F210F1E25001F434A /* Pe-icon-7-stroke.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF80C4D210F1DC0001F434A /* TableViewWithHeader&Footer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF80C60210F1DC1001F434A /* Build configuration list for PBXNativeTarget "TableViewWithHeader&Footer" */;
+			buildPhases = (
+				BDF80C4A210F1DC0001F434A /* Sources */,
+				BDF80C4B210F1DC0001F434A /* Frameworks */,
+				BDF80C4C210F1DC0001F434A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableViewWithHeader&Footer";
+			productName = "TableViewWithHeader&Footer";
+			productReference = BDF80C4E210F1DC0001F434A /* TableViewWithHeader&Footer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF80C46210F1DC0001F434A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "varun daga";
+				TargetAttributes = {
+					BDF80C4D210F1DC0001F434A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = BDF80C49210F1DC0001F434A /* Build configuration list for PBXProject "TableViewWithHeader&Footer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF80C45210F1DC0001F434A;
+			productRefGroup = BDF80C4F210F1DC0001F434A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF80C4D210F1DC0001F434A /* TableViewWithHeader&Footer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF80C4C210F1DC0001F434A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF80C7B210F1E25001F434A /* DroidSans.ttf in Resources */,
+				BDF80C77210F1E25001F434A /* TableViewCell3.xib in Resources */,
+				BDF80C76210F1E25001F434A /* TableViewCell2.xib in Resources */,
+				BDF80C7A210F1E25001F434A /* droid-sans.bold.ttf in Resources */,
+				BDF80C7F210F1E25001F434A /* TableHeaderView.xib in Resources */,
+				BDF80C5C210F1DC1001F434A /* LaunchScreen.storyboard in Resources */,
+				BDF80C7C210F1E25001F434A /* DroidSansBold.ttf in Resources */,
+				BDF80C73210F1E25001F434A /* Assets.xcassets in Resources */,
+				BDF80C8A210F1EC0001F434A /* CollectionViewCell1.xib in Resources */,
+				BDF80C7D210F1E25001F434A /* fontawesome-webfont.ttf in Resources */,
+				BDF80C57210F1DC0001F434A /* Main.storyboard in Resources */,
+				BDF80C78210F1E25001F434A /* TableViewCell1.xib in Resources */,
+				BDF80C88210F1EC0001F434A /* CollectionViewCell4.xib in Resources */,
+				BDF80C7E210F1E25001F434A /* Pe-icon-7-stroke.ttf in Resources */,
+				BDF80C8D210F1EC0001F434A /* CollectionViewCell2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF80C4A210F1DC0001F434A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF80C80210F1E25001F434A /* TableViewCell2.swift in Sources */,
+				BDF80C8C210F1EC0001F434A /* CollectionViewCell4.swift in Sources */,
+				BDF80C79210F1E25001F434A /* TableViewCell1.swift in Sources */,
+				BDF80C54210F1DC0001F434A /* ViewController.swift in Sources */,
+				BDF80C75210F1E25001F434A /* TableViewCell3.swift in Sources */,
+				BDF80C74210F1E25001F434A /* TableViewController.swift in Sources */,
+				BDF80C89210F1EC0001F434A /* CollectionViewCell2.swift in Sources */,
+				BDF80C81210F1E25001F434A /* TableHeaderView.swift in Sources */,
+				BDF80C52210F1DC0001F434A /* AppDelegate.swift in Sources */,
+				BDF80C8B210F1EC0001F434A /* CollectionViewCell1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDF80C55210F1DC0001F434A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF80C56210F1DC0001F434A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDF80C5A210F1DC1001F434A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF80C5B210F1DC1001F434A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF80C5E210F1DC1001F434A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDF80C5F210F1DC1001F434A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF80C61210F1DC1001F434A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ARE334SD9C;
+				INFOPLIST_FILE = "TableViewWithHeader&Footer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StockAxis.OpulentInvestment.StockaxisNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "224e2fdd-9846-4efe-ab23-9a04b81d72c7";
+				PROVISIONING_PROFILE_SPECIFIER = TestingStockaxis15_06;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF80C62210F1DC1001F434A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ARE334SD9C;
+				INFOPLIST_FILE = "TableViewWithHeader&Footer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.StockAxis.OpulentInvestment.StockaxisNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "224e2fdd-9846-4efe-ab23-9a04b81d72c7";
+				PROVISIONING_PROFILE_SPECIFIER = TestingStockaxis15_06;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF80C49210F1DC0001F434A /* Build configuration list for PBXProject "TableViewWithHeader&Footer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF80C5E210F1DC1001F434A /* Debug */,
+				BDF80C5F210F1DC1001F434A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF80C60210F1DC1001F434A /* Build configuration list for PBXNativeTarget "TableViewWithHeader&Footer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF80C61210F1DC1001F434A /* Debug */,
+				BDF80C62210F1DC1001F434A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDF80C46210F1DC0001F434A /* Project object */;
+}
